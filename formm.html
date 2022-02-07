@@ -1,0 +1,23 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title> Registration form</title>
+  <link rel='stylesheet' href='style.css' type='text/css' />
+  <script src="index.js"></script>
+</head>
+<body focus="document.registration.userid.focus();">
+<h1>Registration Form</h1>
+
+<form name='registration' onSubmit="return formValidation();">
+  <ul>
+    <li><label for="username">Name:</label></li>
+    <li><input type="text" name="username" size="50" /></li>
+    <li><label for="passid">Password:</label></li>
+    <li><input type="password" name="passid" size="12" /></li>
+    <li><label for="cid">Confirm Password:</label></li>
+    <li><input type="password" name="cid" size="12" /></li>
+
+    <li><input type="submit" name="submit" value="Submit" /></li>
+  </ul>
+</form>
+</body>
+</html>
